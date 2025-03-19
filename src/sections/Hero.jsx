@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="hero mt-24 md:px-24 max-w-[1600px] mx-auto relative">
+    <div className="hero top-12 mt-24 md:px-24 max-w-[1400px] mx-auto relative">
       <div className="grid md:grid-cols-2 place-items-center gap-8">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -89,7 +89,7 @@ const Hero = () => {
 
         <motion.img
           src={profilepic}
-          className="w-[200px] sm:w-[250px] md:w-[400px]"
+          className="w-[200px] sm:w-[250px] md:w-[320px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}

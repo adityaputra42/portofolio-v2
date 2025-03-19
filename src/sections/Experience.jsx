@@ -7,12 +7,12 @@ const experiences = [
   {
     company: 'CV Nusatech Development',
     period: 'Jan 2023 - Present',
-    description: 'Description of your experience in this company.',
+    description: 'Developed crypto wallet and CEX applications using Flutter, integrating Web3 with Reown WalletKit, Web3dart, and OnChain. Optimized transactions, account management, and real-time market data via REST API. Implemented state management (Provider, Riverpod, GetX, BLoC) and integrated DApps using Web3-WebView. Ensured security, performance optimization, and debugging before deployment. Collaborated with PMs & UI/UX teams and followed Agile Scrum methodologies.'
   },
   {
     company: 'PT Digiasset Indonesia',
     period: 'Aug 2020 - Jan 2023',
-    description: 'Description of your experience in this company.',
+    description: 'Built an internal CEX app using Flutter, integrating REST API for authentication, transactions, and account management. Used Provider for state management. Ensured security, performance optimization, and seamless API integration. Participated in Agile Scrum workflows.',
   }
 ]
 
@@ -20,7 +20,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className='p-8 max-w-[600px] items-center mx-auto'>
+    <div className='p-8 max-w-[1000px] items-center mx-auto'>
       <h1 className='text-4xl text-gray-200 font-bold text-center mb-12'>Experience</h1>
       <motion.div
         className='space-y-8'
