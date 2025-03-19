@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital@0;1&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary:#2ABDB5
+  --color-secondary:#38FFF4
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #050505;
+}
+
+h2 {
+  @apply text-xl md:text-4xl
+}
+
+p {
+  @apply text-xl tracking-normal leading-relaxed
+}
+
+span {
+  @apply text-teal-500
+}
+
+
+.shiny-effect {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(circle, rgba(27, 232, 215, 0.221), transparent 50%);
+}
+
+.bg-teal-500-color {
+    @apply bg-teal-500
+}
