@@ -42,7 +42,7 @@ const Contact = () => {
             </div>
             {contacts.map((contact, index) => (
               <div className='flex flex-row  leading-7 gap-6  mt-6  text-gray-400 text-4xl'>
-                <a href="#">{contact.icon}</a>
+                <a href="#" className="h-[12px]">{contact.icon}</a>
                 <h3 className="md:text-2xl text-xl font-semibold text-white">{contact.value}
                 </h3>
               </div>

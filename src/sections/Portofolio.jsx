@@ -1,16 +1,16 @@
 import React from 'react';
-import project1 from "../assets/project.jpeg"
-import project2 from "../assets/project.jpeg"
-import project4 from "../assets/project.jpeg"
+import project1 from "../assets/multichain.svg"
+import project2 from "../assets/mintsafe.svg"
+import project4 from "../assets/tixmovie.svg"
 import project5 from "../assets/project.jpeg"
 import project6 from "../assets/project.jpeg"
-import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
+import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from "../components/Reveal"
 
 const projects = [
   {
     img: project1,
-    title: "Project #1",
+    title: "Crypto MultiChain Wallet",
     description: "UI for frontend development using React.",
     links: {
       site: "#",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     img: project2,
-    title: "Project #2",
+    title: "MintSafe Wallet",
     description: "A fullstack application built with Node.js and MongoDB.",
     links: {
       site: "#",
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     img: project4,
-    title: "Project #3",
+    title: "Tix Movie",
     description: "An e-commerce platform with various features.",
     links: {
       site: "#",
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     img: project5,
-    title: "Project #4",
+    title: "E-commerce Backend",
     description: "A mobile-friendly application using React Native.",
     links: {
       site: "#",
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     img: project6,
-    title: "Project #5",
+    title: "E-commerce Frontend",
     description: "A data visualization project using D3.js and other libraries.",
     links: {
       site: "#",
