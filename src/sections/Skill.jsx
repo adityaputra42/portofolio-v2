@@ -16,7 +16,7 @@ import { motion } from "framer-motion";
 
 const Skill = () => {
   return (
-    <div className='skill top-5' id='skills'>
+    <div className='skill pt-12' id='skills'>
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

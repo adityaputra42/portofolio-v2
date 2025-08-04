@@ -3,12 +3,17 @@
 
 @theme {
   --color-primary:#2ABDB5
-  --color-secondary:#38FFF4
+  --c
+  olor-secondary:#38FFF4
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Space Grotesk", sans-serif;
   background-color: #050505;
+  
 }
 
 h2 {

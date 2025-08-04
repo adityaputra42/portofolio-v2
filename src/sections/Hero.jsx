@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="hero top-12 mt-24 md:px-24 max-w-[1200px] mx-auto relative" id='home'>
+    <div className="hero pt-36 md:px-24 max-w-[1200px] mx-auto relative" id='home'>
       <div className="grid md:grid-cols-2 place-items-center gap-16">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
