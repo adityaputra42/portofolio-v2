@@ -16,13 +16,13 @@ import { motion } from "framer-motion";
 
 const Skill = () => {
   return (
-    <div className='skill'>
+    <div className='skill top-5' id='skills'>
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 2 }}
-        className="text-white text-4xl text-bold mr-6 text-center pt-24 pb-8">My Tech Stack</motion.h2>
+        className="text-white text-6xl text-bold mr-6 text-center pt-24 pb-8">My Tech Stack</motion.h2>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

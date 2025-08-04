@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="hero top-12 mt-24 md:px-24 max-w-[1400px] mx-auto relative">
+    <div className="hero top-12 mt-24 md:px-24 max-w-[1200px] mx-auto relative" id='home'>
       <div className="grid md:grid-cols-2 place-items-center gap-16">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -32,7 +32,7 @@ const Hero = () => {
             ]}
             speed={50}
             repeat={Infinity}
-            className="font-bold text-gray-400 text-xl md:text-4xl lg:text-5xl italic- mb-4"
+            className="font-bold text-gray-400 text-2xl md:text-4xl lg:text-5xl italic- mb-4"
           />
 
           <motion.p
@@ -40,7 +40,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
+            className="text-gray-200 md:text-7xl text-6xl tracking-tight mb-4"
           >
             HEY, I AM <br />
             <span className="text-teal-500">ADITYA PUTRA PRATAMA</span>
@@ -51,7 +51,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1 }}
-            className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
+            className="text-gray-300 max-w-[400px] md:max-w-[600px] md:text-3xl text-lg mb-6"
           >
             I am a Fullstack App Developer who develops apps with Flutter, React.js, and Golang. I focus on efficient architecture, high performance, and seamless integration between frontend and backend to create responsive and scalable apps.
           </motion.p>
@@ -71,15 +71,21 @@ const Hero = () => {
             </motion.button>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-teal-400 z-20">
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/adityaputra42"
+                target="_blank"
+                rel="noopener noreferrer">
                 <AiOutlineGithub />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/aditya-putra-pratama-3412b61b0/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <AiOutlineLinkedin />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a whileHover={{ scale: 1.2 }} href="https://www.instagram.com/aditya__putra1/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <AiOutlineInstagram />
               </motion.a>
             </div>
@@ -89,7 +95,7 @@ const Hero = () => {
 
         <motion.img
           src={profilepic}
-          className="w-[200px] sm:w-[250px] md:w-[320px]"
+          className="w-[300px] sm:w-[350px] md:w-[400px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}

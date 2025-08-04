@@ -10,64 +10,65 @@ import Reveal from "../components/Reveal"
 const projects = [
   {
     img: project1,
-    title: "Crypto MultiChain Wallet",
-    description: "UI for frontend development using React.",
+    title: "Bee Wallet",
+    description: "A Flutter-based crypto wallet with EVM multichain support, token swap, DApp browser, and WalletConnect integration. Built with Riverpod for scalable and reactive state management.",
     links: {
       site: "#",
-      github: "#",
+      github: "https://github.com/adityaputra42/bee_wallet",
     },
   },
   {
     img: project2,
     title: "MintSafe Wallet",
-    description: "A fullstack application built with Node.js and MongoDB.",
+    description: "A Flutter-based single-chain crypto wallet with EVM support, DApp browser, WalletConnect, and NFT management. Built using GetX for simple and efficient state management.",
     links: {
       site: "#",
-      github: "#",
+      github: "https://github.com/adityaputra42/MintSafe_Wallet",
     },
   },
   {
     img: project4,
     title: "Tix Movie",
-    description: "An e-commerce platform with various features.",
+    description: "A cinema ticket booking app built with Flutter, using BLoC for state management and Firebase as the backend. Movie data is sourced from TMDB API, featuring real-time movie listings, seat selection, and digital ticket storage.",
     links: {
       site: "#",
-      github: "#",
+      github: "https://github.com/adityaputra42/tixmovie",
     },
   },
   {
     img: project5,
     title: "E-commerce Backend",
-    description: "A mobile-friendly application using React Native.",
+    description: "A scalable e-commerce backend built with Golang, using sqlc for type-safe database access and PostgreSQL as the main relational database. Designed for performance, maintainability, and clean architecture.",
     links: {
       site: "#",
-      github: "#",
+      github: "https://github.com/adityaputra42/e-commerce_backend",
     },
   },
   {
     img: project6,
-    title: "E-commerce Frontend",
-    description: "A data visualization project using D3.js and other libraries.",
+    title: "E-commerce gRPC Microservice",
+    description: "A Golang-based microservice system for an e-commerce platform specializing in used cars. Built with gRPC for inter-service communication, GORM + sqlc for database access, PostgreSQL, and NATS as the message broker. Includes services for auth, user management, product, order, and payment.",
     links: {
       site: "#",
-      github: "#",
+      github: "https://github.com/adityaputra42/e-commerce-grpc-microservice",
     },
   },
 ]
 
 const Portfolio = () => {
   return (
-    <div className='max-w-[1000px] items-center mx-auto flex flex-col p-6 md:my-20' id="portfolio">
+    <div className='max-w-[1100px] items-center mx-auto flex flex-col p-6 md:my-20' id="portfolio">
       <h2 className='text-3xl font-bold text-gray-200 mb-8'>Portfolio</h2>
       {projects.map((project, index) => (
 
         <Reveal>
           <div
             key={index}
-            className={`flex flex-col md:flex-row max-w-full mx-auto  p-6 rounded-lg 
-                      ${index % 2 !== 0 ? "md:flex-row-reverse" : ""} mb-12 gap-6`}>
+            className={`flex flex-col md:flex-row max-w-full mx-auto  p-4 rounded-lg 
+                      ${index % 2 !== 0 ? "md:flex-row-reverse" : ""} mb-12 gap-6 border border-teal-900 bg-teal-800/20 shadow-lg 
+                                w-full `}>
             {/* Bagian Gambar */}
-            <div className="w-full md:w-1/2 p-2">
+            <div className="w-full md:w-1/2 p-2 ">
               <img
                 src={project.img}
                 alt={project.title}

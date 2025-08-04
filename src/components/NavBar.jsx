@@ -27,9 +27,9 @@ export default function NavBar() {
     })
   })
 
-  let scrollActive = scroll ? "py-6 bg-white/5 shadow" : "py-4"
+  let scrollActive = scroll ? "py-6 px-8 bg-white/5 shadow" : "py-4 px-6"
   return (
-    <div className={`navbar fixed top-0 w-full bg-opacity-70 backdrop-blur-md z-50 transition-all ${scrollActive}`}>
+    <div className={`navbar fixed top-2 left-1/2 transform -translate-x-1/2 mt-2 max-w-[1200px] w-full rounded-s-full rounded-e-full bg-opacity-50 backdrop-blur-md z-50 transition-all ${scrollActive}`}>
       <div className="container mx-auto px-4 ">
         <div className="navbar-box flex items-center justify-between">
           <div className="logo flex flex-row sm:gap-3 gap-2">

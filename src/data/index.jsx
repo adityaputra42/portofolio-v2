@@ -2,8 +2,8 @@ import projectImg from "../assets/project.jpeg"
 
 export const navItems = [
   { label: "Home", href: "#home", icon: "ri-home-line" },
-  { label: "Skills", href: "#skill", icon: "ri-information-line" },
-  { label: "Project", href: "#project", icon: "ri-folder-image-line" },
+  { label: "Skills", href: "#skills", icon: "ri-information-line" },
+  { label: "Project", href: "#portfolio", icon: "ri-folder-image-line" },
   { label: "Experience", href: "#experience", icon: "ri-phone-line" },
 ];
 

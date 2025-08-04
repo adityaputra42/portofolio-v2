@@ -6,7 +6,7 @@ import Reveal from "../components/Reveal"
 const experiences = [
   {
     company: 'CV Nusatech Development',
-    period: 'Jan 2023 - Present',
+    period: 'Jan 2023 - Jul 2025',
     description: 'Developed crypto wallet and CEX applications using Flutter, integrating Web3 with Reown WalletKit, Web3dart, and OnChain. Optimized transactions, account management, and real-time market data via REST API. Implemented state management (Provider, Riverpod, GetX, BLoC) and integrated DApps using Web3-WebView. Ensured security, performance optimization, and debugging before deployment. Collaborated with PMs & UI/UX teams and followed Agile Scrum methodologies.'
   },
   {
@@ -20,7 +20,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className='p-8 max-w-[1000px] items-center mx-auto'>
+    <div className='p-8 max-w-[1100px] items-center mx-auto' id='experience'>
       <h1 className='text-4xl text-gray-200 font-bold text-center mb-12'>Experience</h1>
       <motion.div
         className='space-y-8'

@@ -51,7 +51,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="max-w-[1200px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12 items-center" id="skills">
+    <div className="max-w-[1400px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12 items-center">
       <Reveal>
         <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
         <p className="text-center mb-8">

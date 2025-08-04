@@ -30,7 +30,7 @@ const contacts = [
 
 const Contact = () => {
   return (
-    <div className="px-6 max-w-[1200px] mt-24 mx-auto md:my-12" id="contact">
+    <div className="px-6 max-w-[1100px] mt-24 mx-auto md:my-12" id="contact">
       <Reveal>
         <div className="grid md:grid-cols-2 place-items-center">
           <div>
